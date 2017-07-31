@@ -27,7 +27,7 @@ Run `npm install git+ssh://git@github.com:Cloudoki/hyper-error.git`
 
 ### Usage
 
-```
+```js
 const HyperError = require('hyper-error');
 
 let error = new HyperError.DBConnectionLost('Connection to the database was lost');
@@ -43,7 +43,7 @@ let boomError = error.toBoom();
 
 which results in the following error object:
 
-```
+```js
 { Error: Internal Server Error
     at HyperError.toBoom (/Users/miguel/Projects/hyper-error/lib/HyperError.js:20:17)
     at repl:1:5
@@ -73,7 +73,7 @@ which results in the following error object:
 
 Generic error creation
 
-```
+```js
 let error = new HyperError({
     code: 'DB_001',
     statusCode: 500,
