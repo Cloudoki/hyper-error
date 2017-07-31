@@ -1,0 +1,23 @@
+{
+  "name": "hyper-error",
+  "version": "0.0.1",
+  "description": "Hyper internal errors dictionary",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cloudoki/hyper-error.git"
+  },
+  "author": "Cloudoki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cloudoki/hyper-error/issues"
+  },
+  "homepage": "https://github.com/Cloudoki/hyper-error#readme",
+  "dependencies": {
+    "boom": "^5.2.0",
+    "lodash.assignin": "^4.2.0"
+  }
+}
