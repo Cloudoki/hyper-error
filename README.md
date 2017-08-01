@@ -70,6 +70,21 @@ which results in the following error object:
   typeof: [Function] }
   ```
 
+A random var can be checked if it is an HyperError by performing the validation with the method `HyperError.isHyperError()`.
+
+```js
+const HyperError = require('hyper-error');
+
+let a = 'abcdef';
+
+console.log(HyperError.isHyperError(a));
+false
+
+console.log(HyperError.isHyperError({code: 'DB_001', statusCode: 500}));
+true
+
+```
+
 
 Generic error creation
 
