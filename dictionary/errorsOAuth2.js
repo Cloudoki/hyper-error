@@ -22,4 +22,8 @@ errors['OAUTH2_010'] = { statusCode: 400, name: 'InvalidSecret', msg: 'The secre
 
 errors['OAUTH2_011'] = { statusCode: 500, name: 'SaveFailed', msg: 'Failed to save the data.' }
 
+errors['OAUTH2_012'] = { statusCode: 400, name: 'InvalidResponseType', msg: 'Invalid response type for the request.' }
+
+errors['OAUTH2_013'] = { statusCode: 400, name: 'ExpiredCode', msg: 'Code token has expired.' }
+
 module.exports = errors
