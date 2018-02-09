@@ -1,6 +1,6 @@
 const errors = {}
 
-errors['OAUTH2_001'] = { statusCode: 400, name: 'InvalidPassword', msg: 'The password did not match.' }
+errors['OAUTH2_001'] = { statusCode: 401, name: 'InvalidPassword', msg: 'The password did not match.' }
 
 errors['OAUTH2_002'] = { statusCode: 404, name: 'NotFound', msg: 'Not Found.' }
 
