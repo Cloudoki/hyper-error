@@ -28,4 +28,6 @@ errors['OAUTH2_013'] = { statusCode: 400, name: 'ExpiredCode', msg: 'Code token 
 
 errors['OAUTH2_014'] = { statusCode :401, name: 'Unauthorized', msg: 'Authentication failed or not provided.' }
 
+errors['OAUTH2_015'] = { statusCode :400, name: 'BadRequest', msg: 'the request contains malformed syntax.' }
+
 module.exports = errors
