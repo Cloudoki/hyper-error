@@ -26,4 +26,6 @@ errors['OAUTH2_012'] = { statusCode: 400, name: 'InvalidResponseType', msg: 'Inv
 
 errors['OAUTH2_013'] = { statusCode: 400, name: 'ExpiredCode', msg: 'Code token has expired.' }
 
+errors['OAUTH2_014'] = { statusCode :401, name: 'Unauthorized', msg: 'Authentication failed or not provided.' }
+
 module.exports = errors
